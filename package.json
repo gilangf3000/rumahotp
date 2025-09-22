@@ -1,0 +1,41 @@
+{
+  "name": "rumahotp",
+  "version": "1.0.0",
+  "description": "Unofficial module untuk integrasi layanan RumahOTP (virtual SIM, topup game, e-wallet, dan produk digital).",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "type": "module",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "rumahotp",
+    "virtual sim",
+    "otp",
+    "topup",
+    "game",
+    "ewallet",
+    "digital",
+    "gilangf3000"
+  ],
+  "author": "gilangf3000",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilangf3000/rumahotp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gilangf3000/rumahotp/issues"
+  },
+  "homepage": "https://github.com/gilangf3000/rumahotp#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "axios": "^1.12.2"
+  }
+}
